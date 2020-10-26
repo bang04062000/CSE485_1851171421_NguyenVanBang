@@ -1,0 +1,456 @@
+
+header
+{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+*
+{
+    color:#b92fb5;
+}
+a
+{
+    text-decoration: none;
+}
+ul 
+{
+    list-style: none;
+}
+header .logo .logo-img img
+{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+header .logo .logo-text
+{
+float: left;
+width: 35%;
+font-size: 30px;
+margin-top: 45px;
+margin-right: 10px;
+}
+
+header .logo .logo-text span
+{
+    padding-left: 15px;
+    font-size: 18px;
+ 
+}
+header .logo .nav 
+{
+    float: left;
+}
+header .logo .nav .nav-sdt-gmail
+{
+margin-left : 150px;
+margin-top: 20px;
+    
+}
+header .logo .nav .search
+{
+    margin-left: 150px;
+    padding-top: 20PX;
+    
+}
+header .logo .search1
+{
+    
+    float: right;
+    font-size: 50px;
+    display: none;
+    
+}
+/* MENU */
+.menu
+{
+    width: 100%;
+    height: 50px;
+    background-color: #b92fb5;
+    margin-top: 0px;
+
+}
+.menu  .bars1
+{
+font-size: 50px;
+margin-right: 10px;
+display: none;
+}
+.menu ul
+{
+    list-style: none;
+    margin-left: 100px;
+}
+.menu ul li
+{
+  float: left;
+  padding-right: 100px;
+  padding-top: 15px;
+  color: white;
+  height: 34px;
+  position: relative;
+  border-left: 1px seashell;
+
+}
+.menu ul li:hover
+{
+    background :#970194 ;
+}
+.menu ul li a
+{
+    color: white;
+    text-decoration: none; 
+}
+.menu ul li ul
+{
+position: absolute;
+padding: 16px;
+left: -115px;
+width: 300px;
+}
+.menu ul li ul li
+{
+    float: none;
+    display: none;
+ 
+}
+
+.menu ul li:hover ul li
+{
+    display: block;
+    background-color: #b009ac;
+    direction: 10s;
+    
+}
+.menu ul li ul li:hover
+{
+    background: #b009ac;
+}
+/* content */
+.content{
+    width: 100%;
+    margin: 30px auto 30px;
+    margin-top: 0px;
+    height: 1800px;
+   
+  
+}
+.content .main-content
+{
+    width: 69%;
+    float: left;
+
+}
+.content .sidebar
+{
+    width: 30%;
+    float: left;
+ 
+    height: 300px;
+}
+.content .main-content .recent-post-title
+{
+    margin: 20px;
+}
+.content .main-content .post
+{
+    width: 90%;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    border-top: 1px solid black;  
+}
+.content .main-content .post .read-more
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid rgb(162, 70, 180);
+    background: transparent;
+    border-radius: 0px;
+    color: #b92fb5 !important;
+}
+.content .main-content .post .read-more:hover
+{
+background: rgb(124, 0, 128);
+color: white !important;
+}
+.content .main-content .post .anhgaixinh
+{
+  width: 40%;
+    height: 85%;
+    float: left;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+.content .main-content .post-preview
+{
+    width: 50%;
+    margin: 10px;
+    margin-top: -20px;
+    float: right;
+    border-radius: 10px;
+  
+}
+.content a:hover
+{
+    color: #970194;
+ 
+}
+.btn
+{
+    border:1px solid transparent;
+    background: #b92fb5;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+}
+.content .sidebar .section
+{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.content .sidebar .section.search
+{
+    margin-top: 80px;
+}
+.content .sidebar .section.section-title
+{
+    margin: 10px 0px 10px 0px;
+    margin-left: 10PX;
+}
+
+.content .sidebar .section .topics ul
+    {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        border-top: 1px solid #b92fb5;;  
+    }
+.content .sidebar .section.topics ul li a
+    {
+        display: block;
+        padding: 15px 0px 15px 0px;
+        border-bottom: 1px solid #b92fb5;;  
+    }
+.content .sidebar .section.topics ul li a:hover
+    {
+        padding-left: 20px;
+        transition: all 0.3s;
+    }
+.next
+{
+    width: 100%;
+    height: 50px;
+    margin-left: 1300px;
+}
+.next ul
+{
+    float: left;
+    
+}
+.next ul li
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid ;
+    color:  #b92fb5;
+}
+.next ul li a
+{
+    padding-left: 15px ;
+padding-top: 30px;
+   
+}
+.next ul li:hover
+{
+    background:  #b92fb5;
+    color: white ;
+}
+.footer
+{
+       
+        background: #b92fb5;
+        color: white;
+        height: 300px;
+        position: relative;
+        margin-bottom:0px;
+        padding: 0px;  
+        width: 100%;
+}
+.footer .footer-right
+{
+    width: 33%;
+    height: 300px;
+    background: #b92fb5;;
+    float: left;
+    color: white;
+
+}
+.footer .footer-right h2
+{
+    color: white;
+    margin-left: 50px;
+}
+.footer .footer-right ul li i
+{
+    color: white;
+    padding-top: 20px;
+}
+.footer .footer-mid
+{
+    float: left;
+width: 42%;
+height: 300px;
+background: #b92fb5;
+color: white;
+}
+.footer .footer-mid img
+{
+    width: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 50px;
+    margin-left: 90px;
+    color:  #b92fb5;
+}
+.footer .footer-left
+{
+    float: left;
+    background: #b92fb5;
+    width: 25%;
+    height: 300px;
+}
+.footer .footer-left ul li i
+{
+    color: white;
+    padding-top: 10px;
+}
+.footer .footer-left ul li i a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-left h2
+{
+    color: white;
+}
+.footer .footer-footer
+{
+    background: #800040;
+    height: 350px;
+    width: 100%;
+}
+.footer .footer-footer h1
+{
+margin-left: 540px;
+color: white;
+}
+@media only screen and (max-width: 1400px)
+{
+header
+{
+    width: 100%;
+    height: 1 px;
+}
+header .logo .nav .nav-sdt-gmail
+{
+    display: none;
+}
+header .logo .nav .search
+{
+    
+    margin-left: 5px;
+    padding: 20px 0 10px ;
+     float: none;
+    
+}
+header .logo .logo-text
+{   
+float: left;
+width: 70%;
+font-size: 15px;
+margin-top: 30px;
+margin-right: 10px;
+}
+header .logo .logo-text span
+{
+   font-size: 10px;
+   padding-left: 10px;
+
+}
+header .logo .logo-img img
+{
+    width: 25%;
+    height: 100px;
+    background-color: #3366ff;  
+    text-decoration: none; 
+}
+.menu
+{
+    width: 100%;
+    height: 100px;
+}
+.menu ul
+{
+    list-style: none;
+    margin-left: -30px;
+}
+.menu ul li
+{
+  float: left;
+  padding-right: 8%;
+  padding-top: 15px;
+  color: white;
+  height:35px;
+}
+.menu ul li:hover
+{
+    background :#3366ff ;
+}
+.menu ul li a
+{
+    color: white;
+    text-decoration: none; 
+    font-size: 70%;
+}
+.menu ul li ul
+{
+
+padding: 16px;
+left: -25px;
+width: 300px;
+}
+.menu ul li ul li
+{
+    float: none;
+    display: none;
+ 
+}
+
+.menu ul li:hover ul li
+{
+    display: block;
+    background-color: #072a91;
+    
+}
+.menu ul li ul li:hover
+{
+    background: #3366ff;
+}
+    
+}
+

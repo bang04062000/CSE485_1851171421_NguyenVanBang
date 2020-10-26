@@ -1,0 +1,195 @@
+ul
+{
+    list-style: none;
+}
+a{
+    color: #990099;
+}
+.dautrang 
+{
+  width: 100%;
+  height: 50px;  
+  background:#66a3ff;
+
+ 
+}
+
+.dautrang  h1
+{
+  
+    float: left;
+    color: white;
+}
+
+.dautrang ul 
+{
+    height: 50px;
+    background-color: #990099   ;
+}
+.dautrang  ul li
+{
+    float: left;
+   
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.dautrang  ul li
+{
+    color: white;
+}
+.dautrang  ul li:hover ul
+{
+    display: block;
+}
+.dautrang  ul li ul
+{
+    width: 300px;
+    margin-top: 15px;
+   display: none;
+
+}
+.dautrang  ul li a
+{
+    font-size: 20px;
+    color: white;
+}
+
+.content
+{
+    width: 100%;
+    height: 3000px;
+}
+.baiviet .content
+{
+    
+    width: 100%;
+    height: 60px;
+    
+   
+}
+.baiviet .content h1
+{
+    width: 94%;
+    background: #990099;
+    color: white;
+    float: left;
+    margin-left: 100px;
+   
+}
+.baiviet .content h1 a i
+{
+    color: white;
+}
+.baiviet .content .content-main
+{
+    border-top: 5px solid #990099;
+    width: 60%;
+    height: 130px;
+    float: left;
+    margin-left: 100px;
+}
+
+.baiviet .content .content-main .post img
+{
+    padding-top: 10px;
+    width: 30%;
+    height:130px;
+    float: left;
+    padding-right: 10px;
+}
+.baiviet .content .content-main .post 
+{
+   width: 100%; 
+}
+.baiviet .content .content-main .post h4
+{
+    margin-left: 100px;
+}
+.baiviet .content .content-main  h4 a
+{
+    color:  #990099;
+}
+.baiviet .content .content_trai
+{
+ 
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-top:-520px;
+ 
+}
+.baiviet .content .content_trai h3
+{
+  margin-left: 32px;  
+}
+.baiviet .content .content_trai ul li 
+{
+    border-top: 1px solid black;
+    width: 100%;
+    height: 40px;
+}
+
+.tao
+{
+    width: 100%;
+    padding-top: 100px;
+}
+.baiviet .content .content_trai ul li a
+{
+    color: #990099;
+}
+/* content-bai */
+.baiviet .content-bai
+{
+    border: 1px solid #990099;
+    width: 70%;
+    height:50%;
+    margin-left: 100px;
+    color: #990099;
+
+}
+.baiviet .content-bai h1
+{
+    margin-left: 10px;
+    color: w;
+}
+.baiviet .content-bai p
+{
+    margin: 10px;
+}
+.baiviet .content-bai img
+{
+    width: 80%;
+    margin-left: 10%;
+}
+.baiviet .content-bai h5
+{
+    margin-left: 85%;
+}
+.baiviet .content-bai h6
+{
+    margin-left: 2%;
+} 
+.baiviet .binhluan
+{
+    width: 80%;
+    height: 200px;
+}
+.binhluan_ht_bl
+{
+    margin-top: 10px;
+    border: 5px solid #990099;
+    width: 70%;
+    margin-left: 100px;
+}
+.binhluan_ht_bl .binhluan
+{
+    height: 500px;
+    border-bottom: 5px solid #990099;
+}
+.binhluan_ht_bl  .ht_bl
+{
+    height: 200px;
+    border-bottom: 2px solid #990099;
+}
