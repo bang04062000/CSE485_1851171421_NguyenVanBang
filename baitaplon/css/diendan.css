@@ -112,8 +112,8 @@ display: none;
 .menu ul li ul
 {
 position: absolute;
-padding: 16px;
-left: -115px;
+padding: 10px;
+left: -110px;
 width: 300px;
 }
 .menu ul li ul li
@@ -443,9 +443,8 @@ header .logo .logo-img img
 .menu ul li ul
 {
 
-padding: 16px;
-left: -25px;
-width: 300px;
+
+width:100%;
 }
 .menu ul li ul li
 {

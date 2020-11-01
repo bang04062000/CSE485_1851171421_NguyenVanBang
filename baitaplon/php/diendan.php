@@ -10,7 +10,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>b
+    <title>Title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css">
@@ -48,7 +48,7 @@
     </header>
     <div class="menu">
         <i class="fas fa-bars bars1"></i>
-    <ul>
+<ul>
         <li><a href="trangchu.php">TRANG CHỦ</a></li>
         <li><a href="#">GIỚI THIỆU</a></li>
         <li ><a href="diendan.php">SINH VIÊN</a></li>
@@ -57,19 +57,22 @@
      <li>
                     <?php
                         if(!isset($_SESSION['user'])){
-                            header("Location:diendan.php");
+                        header("Location:diendan.php");
                    ?>    
                     <?php
                         }else{
                     ?>
-                <li ><?php echo "Xin chào : ".$_SESSION['user']; ?></a>
-                <ul>
+       
+                <?php echo "Xin chào : ".$_SESSION['user']; ?>
+            <ul>
                 <li><a href="dangxuat.php">đăng xuất</a></li>
-                </ul>
-                </li>
+            </ul>
+        </li>
                     <?php 
                         }
-                    ?></li>
+                    ?>
+    
+</ul>
     </div>
 
     <!-- Optional JavaScript -->
@@ -96,7 +99,7 @@
     <h3>4.Đào tạo-Hướng nghiệp</h3>
     <li><i class="far fa-comment"></i> <a href="">Chia sẻ tài liệu bằng tiếng việt</a></li>
     <li><i class="far fa-comment"></i> <a href="">các chứng chỉ Quóc Tế</a></li>
-    <li><i class="far fa-comment"></i> <a href="">Chia sẻ tài liệu bằng tiếng anh</a></li>
+    <li><i class="far fa-comment"></i><a href="">Chia sẻ tài liệu bằng tiếng anh</a></li>
 </ul>
 <ul>
     <h3>5.Các thế hệ</h3>

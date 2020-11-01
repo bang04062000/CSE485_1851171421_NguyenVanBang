@@ -29,9 +29,8 @@
         <ul>
           <li><a href="sukien.php">danh sách câu hỏi</a></li>
           <li><a href="datcauhoi.php">đặt câu hỏi</a></li>
-          <li><a href="">danh sách câu hỏi</a></li>
           <li><a href="">chưa trả lời</a></li>
-          <li><a href="">từ khóa</a></li>
+          <li><a href="tukhoa.php">từ khóa</a></li>
           <li><?php echo "Xin chào : ".$_SESSION['user']; ?></li>
         </ul>
   </div> 
@@ -55,19 +54,22 @@
                           <input type="text" class="form-control" name="txttukhoa" id="txttukhoa" value = "">
                         </div>
                         <div class="form-group">
+                
+                          <input type="hidden" class="form-control" name="txtnguoidang" id="txtnguoidang" value = "<?php echo "".$_SESSION['user']; ?>">
+                        </div>
+                        <div class="form-group">
                           <label for="txtLastName">nội dung</label>
                           <textarea id="txtnoidung" name="txtnoidung" class="form-control"
           rows="5" cols="33"> </textarea>
                         </div>
                         <div class="form-group">
-                          <input  type="submit" class="form-control bg-success btn_tao" name="sbmSave" id="sbmSave" value="tạo">
+                          <input  type="submit" class="form-control  btn_tao" name="sbmSave" id="sbmSave" value="tạo">
                         </div>
                     
                     </form>
                 </div>
             </div>
       </main>
-        
       </div>
 
 

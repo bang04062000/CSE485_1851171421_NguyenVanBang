@@ -89,24 +89,24 @@
         </li>
     </ul>
     </div>
-<div class="dangnhap">
-<form action="xl_dangky.php" method="POST">
-  <div class="form-group text-tk">
-    <label for="email">nhập mail</label>
-    <input type="email" class="form-control" name="txtemail" id="txtemail">
-  </div>
-  <div class="form-group text-mk">
-    <label for="pwd">nhâp mật khẩu</label>
-    <input type="password" class="form-control" name="txtmatkhau" id="txtmakhau">
-  </div>
-  <div class="form-group text-mk">
-    <label for="pwd">nhâp mật khẩu</label>
-    <input type="password" class="form-control" name="txtmatkhau1" id="txtmakhau1">
-  </div>
-  <button type="submit" class="btn btn-default bt-dn">đăng ký</button>
-</form>
-<a href="dangky.php">đăng kí tài khoản?</a>
-</div>
+            <div class="dangnhap">
+                <form action="xl_dangky.php" method="POST">
+                <div class="form-group text-tk">
+                    <label for="email">nhập mail</label>
+                    <input type="email" class="form-control" name="txtemail" id="txtemail">
+                </div>
+                <div class="form-group text-mk">
+                    <label for="pwd">nhâp mật khẩu</label>
+                    <input type="password" class="form-control" name="txtmatkhau" id="txtmakhau">
+                </div>
+                <div class="form-group text-mk">
+                    <label for="pwd">nhâp mật khẩu</label>
+                    <input type="password" class="form-control" name="txtmatkhau1" id="txtmakhau1">
+                </div>
+                <button type="submit" class="btn btn-default bt-dn">đăng ký</button>
+                </form>
+                <a href="dangky.php">đăng kí tài khoản?</a>
+            </div>
     
 <!-- footer -->
 <div class="footer">

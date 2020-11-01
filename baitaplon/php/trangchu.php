@@ -62,15 +62,12 @@
         </li>
         <li ><a href="diendan.php">DIỄN ĐÀN</a>
             <ul>
+                
             </ul>
         
         </li>
     
-        <li><a href="dangnhap.php">ĐĂNG NHẬP</a>
-            <ul>
-             
-            </ul>
-        </li>
+      
     </ul>
     </div>
     <div id="demo" class="carousel slide slide1" data-ride="carousel">

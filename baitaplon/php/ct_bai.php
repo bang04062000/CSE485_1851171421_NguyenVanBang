@@ -54,19 +54,24 @@ $result = mysqli_query($conn,$sql);
 
 <div class="content-bai">
     <h1><?php echo $s['tieude'];?></h1>
-    <h6><i class="fas fa-calendar-alt"> <?php echo $s['date'];?></i></h6>
+    <h6><i class="fas fa-calendar-alt"> <?php echo $s['date'];?></i>
+    <i class="fas fa-user"> <?php echo $s['ten_nguoidang'] ?></i>
+  </h6>
+    <img src="<?php echo $s['img'];?>" alt="">
     <p>
     <?php echo $s['noidung'];?>
     </p>
-    <img src="<?php echo $s['img'];?>" alt="">
+  
+
  </div>
  </div>
 
  <div class="binhluan_ht_bl">
+ 
  <div class="binhluan">
     <div class="row">
                 <div class="col-md-12">
-               
+            
                     <form action="xl_thembl.php?id=<?php echo $id ;?>" method="POST">
                         <div class="form-group">
                           <label for="txtUserID"></label>
@@ -77,7 +82,7 @@ $result = mysqli_query($conn,$sql);
                           <textarea id="txtnoidungbl" name="txtnoidungbl" class="form-control" rows="5" cols="33"> </textarea>
                         </div>
                         <div class="form-group">
-                          <input  type="submit" class="form-control bg-success btn_tao" name="submit" id="sbmSave" value="bình luận">
+                          <input  type="submit" class="form-control  btn_tao" name="submit" id="sbmSave" value="bình luận">
                         </div>
                     
                     </form>
@@ -97,16 +102,12 @@ $result = mysqli_query($conn,$sql);
             </p>
         </div>
         <?php }  ?>
-
     </div>
-
- 
-
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

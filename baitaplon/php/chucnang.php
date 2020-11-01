@@ -25,11 +25,11 @@ function getbinhluan($id)
     return  $result;
 }
 
-function insert($tieude,$img,$noidung,$tukhoa)
+function insert($tieude,$img,$noidung,$tukhoa,$nguoidang)
 {
     global $conn;
-    $sql ="INSERT INTO quanlybaidang (tieude,img,noidung,tukhoa,date)
-    VALUES ('$tieude','$img','$noidung','$tukhoa',Now())";  
+    $sql ="INSERT INTO quanlybaidang (tieude,img,noidung,tukhoa,date,ten_nguoidang)
+    VALUES ('$tieude','$img','$noidung','$tukhoa',Now(),'$nguoidang')";  
       $result = mysqli_query($conn,$sql);
       if($result)
       return true;
