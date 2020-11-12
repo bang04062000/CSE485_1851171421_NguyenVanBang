@@ -1,0 +1,172 @@
+ul
+{
+    list-style: none;
+}
+a{
+    color: #1a1aff;
+}
+.dautrang 
+{
+  width: 100%;
+  height: 50px;  
+  background:#66a3ff;
+
+ 
+}
+.dautrang  h1
+{
+  
+    float: left;
+    color: white;
+}
+
+.dautrang ul 
+{
+    height: 50px;
+    background-color: #1a1aff ;
+}
+.dautrang  ul li
+{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.dautrang  ul li
+{
+    color: white;
+}
+
+.dautrang  ul li ul
+{
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+}
+.dautrang  ul li:hover ul 
+{
+display: block;
+border: 1px solid white;
+direction: 10s;
+}
+.dautrang  ul li a
+{
+    font-size: 20px;
+    color: white;
+}
+.content
+{
+    margin-top: -55px;
+    width: 90%;
+    height: 600px;
+}
+.content h1
+{
+    width: 85%;
+    background: #1a1aff;
+    color: white;
+    float: left;
+    margin-left: 100px;
+   
+}
+.content h1 a i
+{
+    color: white;
+}
+.content .content-main
+{
+    border-top: 5px solid #1a1aff;
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.content .content-main .post img
+{
+    padding-top: 10px;
+    width: 25%;
+    height:190px;
+    float: left;
+    padding-right: 10px;
+}
+.content .content-main .post 
+{
+   width: 100%; 
+}
+.content .content-main .post h4
+{
+    margin-left: 100px;
+}
+.content .content-main  h4 a
+{
+    color:  #1a1aff;
+}
+.content .content_trai
+{
+ 
+    width: 30%;
+    height: 400px;
+   
+    margin-top:-520px;
+ 
+}
+.content .content_trai h3
+{
+  margin-left: 32px;  
+}
+.content .content_trai ul li 
+{
+    border-top: 1px solid #1a1aff;
+    width: 100%;
+    height: 40px;
+}
+
+.tao
+{
+    width: 100%;
+    padding-top: 100px;
+}
+.content .content_trai ul li a
+{
+    color: #1a1aff;
+}
+/* content-bai */
+.content-bai
+{
+    border: 1px solid #1a1aff;
+    width: 100%;
+    height: 300px;
+}
+.footer-diendan
+{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    background: #1a1aff;
+   margin-bottom: 0px;
+}
+
+.footer-diendan h1
+{
+    color: white;
+    margin-left: 0%;
+}
+/* tukhoa */
+.tukhoa
+{
+    width: 100%;
+    height: 30px;
+}
+nav
+{
+    margin-right: 500px;
+}
+nav ul
+{
+    width: 100%;
+    float: right;
+    color: white;
+}
